@@ -94,8 +94,10 @@ if SERVER then
                 else if AnarchKitSurType == 3 then -- Bury the surrenderers alive
                 
                 else if AnarchKitSurType == 4 then -- let them fall to death
-                
+                    ply:StripAll()
+                    -- CODE HERE
                 else if AnarchKitSurType == 5 then -- strip their inventory
+                    ply:StripAll()
 
                 else if AnarchKitSurType == 6 then -- set HP to 1
                 
